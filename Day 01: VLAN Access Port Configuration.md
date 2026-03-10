@@ -1,11 +1,14 @@
-Day 01 – VLAN Access Port Configuration
-Date: 2026-03-10
+# Day 01 – VLAN Access Port Configuration
 
-Environment
-Cisco Packet Tracer
+Date: 2026-03-10  
+## Environment
+
+Cisco Packet Tracer  
 Cisco 2960 Switch
 
-CLI Commands
+## CLI Commands
+
+```bash
 enable
 configure terminal
 vlan 10
@@ -19,20 +22,24 @@ spanning-tree portfast
 no shutdown
 end
 write memory
+```
 
-Key Concept
+## Key Concept
 
-Access Port
-An access port carries traffic for only one VLAN and typically connects end devices such as PCs or printers.
-
-VLAN Segmentation
+An access port belongs to a single VLAN and connects end devices such as PCs or printers.
 A VLAN logically separates networks within a Layer 2 switch, allowing devices in different VLANs to be isolated even if they share the same physical switch.
 
-Verification Commands
+## Verification Commands
+
+```bash
 show vlan brief
 show running-config
 show interfaces status
+```
 
-Troubleshooting Commands
+## Troubleshooting Commands
+
+```bash
 show interfaces g0/1 switchport
 show spanning-tree interface g0/1
+```
