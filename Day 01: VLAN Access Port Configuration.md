@@ -3,8 +3,8 @@
 Date: 2026-03-10  
 ## Environment
 
-Cisco Packet Tracer  
-Cisco 2960 Switch
+- Cisco Packet Tracer  
+- Cisco 2960 Switch
 
 ## CLI Commands
 
@@ -26,8 +26,8 @@ write memory
 
 ## Key Concept
 
-An access port belongs to a single VLAN and connects end devices such as PCs or printers.  
-A VLAN logically separates networks within a Layer 2 switch, allowing devices in different VLANs to be isolated even if they share the same physical switch.
+- An access port belongs to a single VLAN and connects end devices such as PCs or printers.  
+- A VLAN logically separates networks within a Layer 2 switch, allowing devices in different VLANs to be isolated even if they share the same physical switch.
 
 ## Verification Commands
 
