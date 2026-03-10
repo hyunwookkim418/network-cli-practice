@@ -1,7 +1,10 @@
 # Day 01 – VLAN Access Port Configuration
 
 Date: 2026-03-10  
-Practice: 5 repetitions in Packet Tracer
+## Environment
+
+Cisco Packet Tracer  
+Cisco 2960 Switch
 
 ## CLI Commands
 
@@ -21,11 +24,9 @@ end
 write memory
 ```
 
-## What I Learned
+## Key Concept
 
-- VLAN creates logical network segmentation.
-- Access ports belong to a single VLAN.
-- PortFast allows faster transition to forwarding state for end devices.
+An access port belongs to a single VLAN and connects end devices such as PCs or printers.
 
 ## Verification Commands
 
@@ -34,3 +35,11 @@ show vlan brief
 show running-config
 show interfaces status
 ```
+
+## Troubleshooting Commands
+
+```bash
+show interfaces g0/1 switchport
+show spanning-tree interface g0/1
+```
+
