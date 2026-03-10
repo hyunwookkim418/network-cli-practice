@@ -2,7 +2,9 @@
 
 This repository documents my daily network CLI practice.
 
-Goal: Build strong Cisco CLI muscle memory through consistent hands-on repetition.
+## Purpose
+
+The purpose of this repository is to develop practical network engineering skills through continuous CLI practice.
 
 ## Environment
 - Cisco Packet Tracer
@@ -18,6 +20,4 @@ Each file contains:
 - Verification commands
 - Troubleshooting commands
 
-## Purpose
 
-The purpose of this repository is to develop practical network engineering skills through continuous CLI practice.
