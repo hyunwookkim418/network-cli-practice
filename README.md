@@ -8,7 +8,7 @@ The purpose of this repository is to develop practical network engineering skill
 
 ## Environment
 - Cisco Packet Tracer
-- Cisco 2960 Switch
+- Cisco Switches and Routers
 - Cisco CLI
 
 ## Structure
