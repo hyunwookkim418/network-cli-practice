@@ -27,7 +27,6 @@ write memory
 ## Key Concept
 
 An access port belongs to a single VLAN and connects end devices such as PCs or printers.
-
 A VLAN logically separates networks within a Layer 2 switch, allowing devices in different VLANs to be isolated even if they share the same physical switch.
 
 ## Verification Commands
