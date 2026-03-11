@@ -28,7 +28,7 @@ write memory
 ## Key Concept
 
 - An access port belongs to a single VLAN and connects end devices such as PCs or printers.  
-- The message `%SYS-5-CONFIG_I: Configured from console by console` indicates that the device configuration was modified from the console.
+- The message `%SYS-5-CONFIG_I: Configured from console by console` is a Cisco syslog message indicating that the device configuration was modified from the console. The number **5** represents the syslog **notification severity level**.
 
 ## Verification Commands
 
