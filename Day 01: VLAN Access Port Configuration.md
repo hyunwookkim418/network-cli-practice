@@ -1,4 +1,4 @@
-# Day 01 – VLAN Access Port Configuration
+# Day 01: VLAN Access Port Configuration
 
 Date: 2026-03-10  
 ## Environment
