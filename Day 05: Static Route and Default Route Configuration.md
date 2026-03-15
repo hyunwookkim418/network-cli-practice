@@ -17,7 +17,7 @@ PC LAN (192.168.10.0/24)
         |
         | 192.168.10.0/24
         |
-   RouterB
+   RouterB (default route)
    g0/0: 192.168.10.2
         |
        / \
@@ -39,7 +39,6 @@ ip address 192.168.10.1 255.255.255.0
 no shutdown
 exit
 ip route 192.168.50.0 255.255.255.0 192.168.10.2
-ip route 0.0.0.0 0.0.0.0 192.168.10.2
 end
 write memory
 ```
