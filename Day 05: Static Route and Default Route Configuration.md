@@ -26,6 +26,8 @@ PC LAN (192.168.10.0/24)
  Server LAN          203.0.113.1
 ```
 
+# RouterA Configuration
+
 ## CLI Commands
 
 ```bash
@@ -37,10 +39,31 @@ ip address 192.168.10.1 255.255.255.0
 no shutdown
 exit
 ip route 192.168.50.0 255.255.255.0 192.168.10.2
+ip route 0.0.0.0 0.0.0.0 192.168.10.2
+end
+write memory
+```
+
+---
+
+# RouterB Configuration
+
+## CLI Commands
+
+```bash
+enable
+configure terminal
+interface g0/0
+description Link_to_RouterA
+ip address 192.168.10.2 255.255.255.0
+no shutdown
+exit
 ip route 0.0.0.0 0.0.0.0 203.0.113.1
 end
 write memory
 ```
+
+---
 
 ## Key Concept
 
