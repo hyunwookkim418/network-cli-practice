@@ -5,7 +5,7 @@ Date: 2026-03-15
 ## Environment
 
 - Cisco Packet Tracer  
-- Cisco Switches and Routers
+- Cisco Routers
 
 ## Network Topology
 
