@@ -8,6 +8,7 @@ Date: 2026-03-16
 - Cisco Routers (1941)
 
 ## Network Topology
+```bash
 LAN_A (192.168.10.0/24)
 |
 | 192.168.10.1
@@ -20,7 +21,7 @@ RouterB
 | 10.1.1.2/30
 |
 LAN_B (192.168.20.0/24)
-
+```
 
 ---
 
@@ -50,11 +51,15 @@ network 10.1.1.0 0.0.0.3 area 0
 
 end
 write memory
+```
+
+---
 
 # RouterB Configuration
 
 ## CLI Commands
 
+```bash
 enable
 configure terminal
 
@@ -76,6 +81,7 @@ network 192.168.20.0 0.0.0.255 area 0
 
 end
 write memory
+```
 
 ## Key Concept
 
@@ -83,11 +89,14 @@ write memory
 - Neighbor adjacency is formed only when routers share the same subnet, area, and OSPF parameters.
 
 ## Verification Commands
+```bash
 show ip ospf neighbor
 show ip route
 show ip ospf interface
-
+```
 ## Troubleshooting Commands
+```bash
 show ip interface brief
 show ip ospf
 show ip ospf database
+```
