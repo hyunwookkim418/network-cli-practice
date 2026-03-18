@@ -1,4 +1,4 @@
-# Day 07 – OSPF Basic Configuration (Single Area)
+# Day 07: OSPF Basic Configuration (Single Area)
 
 Date: 2026-03-16  
 
