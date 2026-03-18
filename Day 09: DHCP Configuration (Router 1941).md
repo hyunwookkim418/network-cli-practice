@@ -50,6 +50,9 @@ show ip dhcp binding
 show ip dhcp pool
 show running-config
 ```
-Troubleshooting Commands
+
+## Troubleshooting Commands
+```bash
 show ip interface brief
 debug ip dhcp server events
+```
