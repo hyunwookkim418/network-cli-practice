@@ -7,7 +7,7 @@ Date: 2026-03-18
 - Cisco Router (1941)
 
 ## Network Topology
-```bash
+```
 PC (DHCP Client)
 |
 | 192.168.30.0/24
@@ -15,7 +15,7 @@ PC (DHCP Client)
 Router (g0/0: 192.168.30.1)
 ```
 
-## Router Configuration
+# Router Configuration
 ## CLI Commands
 ```bash
 enable
