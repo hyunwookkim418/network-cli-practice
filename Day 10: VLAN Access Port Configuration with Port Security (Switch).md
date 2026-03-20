@@ -7,7 +7,7 @@ Date: 2026-03-19
 - Cisco Switch (2960)
 
 ## Network Topology
-bash```
+```bash
 PC
 |
 | (Access VLAN 10)
@@ -17,7 +17,7 @@ Switch (g0/1)
 
 # Switch Configuration
 ## CLI Commands
-bash```
+```bash
 enable
 configure terminal
 
@@ -43,14 +43,14 @@ write memory
 - BPDU Guard disables the port if a switch is mistakenly connected (basic security)
 
 ## Verification Commands
-bash```
+```bash
 show vlan brief
 show running-config
 show spanning-tree interface g0/1
 ```
 
 ## Troubleshooting Commands
-bash```
+```bash
 show interface status
 show mac address-table
 show spanning-tree
