@@ -40,7 +40,7 @@ write memory
 - VLAN 10 is created and assigned to the SALES department
 - Access port (g0/1) is configured for end device (PC)
 - PortFast enables immediate forwarding state (no STP delay)
-- BPDU Guard disables the port if a switch is mistakenly connected (basic security)
+- BPDU Guard disables the port if a switch is mistakenly connected
 
 ## Verification Commands
 ```bash
