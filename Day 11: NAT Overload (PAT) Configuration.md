@@ -45,9 +45,9 @@ write memory
 
 ## Key Concept
 - NAT Overload (PAT) allows multiple internal private IP addresses to share a single public IP address using port translation.
-- ip nat inside and ip nat outside define traffic direction for NAT processing.
+- `ip nat inside` and `ip nat outside` define traffic direction for NAT processing.
 - The ACL specifies which internal networks are eligible for translation.
-- The overload keyword enables port-based translation (PAT).
+- The `overload` keyword enables port-based translation (PAT).
 
 ## Verification Commands
 ```bash
