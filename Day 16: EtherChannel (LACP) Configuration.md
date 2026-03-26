@@ -7,7 +7,8 @@ Date: 2026-03-25
 - Cisco Switch (2960)
 
 ## Network Topology
-```bash Switch A (g0/1, g0/2)
+```bash
+Switch A (g0/1, g0/2)
         ||
         ||  EtherChannel (Po1)
         ||
