@@ -1,4 +1,4 @@
-# Day 21 – Port Security (Sticky MAC) Configuration
+# Day 21: Port Security (Sticky MAC) Configuration
 
 Date: 2026-03-30
 
