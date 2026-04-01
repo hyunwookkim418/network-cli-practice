@@ -1,4 +1,4 @@
-# Day 20 – DHCP Configuration (Router-Based)
+# Day 20: DHCP Configuration (Router-Based)
 
 Date: 2026-03-29
 
