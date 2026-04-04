@@ -42,7 +42,6 @@ Group  Port-channel  Protocol  Ports
 - Both sides MUST match configuration
 
 ## Common Issues
-```bash
 | Symptom | Meaning |
 |--------|--------|
 | (I) | Individual (not bundled) |
@@ -50,7 +49,6 @@ Group  Port-channel  Protocol  Ports
 | suspended | Config mismatch |
 | No Po1 | EtherChannel not formed |
 | No LACP neighbor | Other side misconfigured |
-```
 
 ## When to Use
 - Switch uplink design
