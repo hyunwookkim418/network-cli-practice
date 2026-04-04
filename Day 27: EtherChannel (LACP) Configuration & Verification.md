@@ -43,12 +43,13 @@ Group  Port-channel  Protocol  Ports
 
 ## Common Issues
 ```bash
-Symptom	Meaning
-(I)	Individual (not bundled)
-(D)	Down
-suspended	Config mismatch
-No Po1	EtherChannel not formed
-No LACP neighbor	Other side misconfigured
+| Symptom | Meaning |
+|--------|--------|
+| (I) | Individual (not bundled) |
+| (D) | Down |
+| suspended | Config mismatch |
+| No Po1 | EtherChannel not formed |
+| No LACP neighbor | Other side misconfigured |
 ```
 
 ## When to Use
