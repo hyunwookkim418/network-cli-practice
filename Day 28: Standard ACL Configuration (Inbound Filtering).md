@@ -1,4 +1,4 @@
-# Day 27: Standard ACL Configuration (Inbound Filtering)
+# Day 28: Standard ACL Configuration (Inbound Filtering)
 
 Date: 2026-04-05
 
