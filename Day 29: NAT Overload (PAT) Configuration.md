@@ -3,7 +3,7 @@
 Date: 2026-04-06
 
 ## 30-Second Summary
-- I configured NAT overload, or PAT, so multiple internal devices can share one public IP. I set inside and outside interfaces, defined an ACL, and used ip nat inside source list 1 interface g0/1 overload to translate private IPs to the g0/1 address using ports.
+- I configured NAT overload, or PAT, so multiple internal devices can share one public IP. I set inside and outside interfaces, defined an ACL, and used `ip nat inside source list 1 interface g0/1 overload` to translate private IPs to the g0/1 address using ports.
 
 ## Environment
 - Cisco Packet Tracer
