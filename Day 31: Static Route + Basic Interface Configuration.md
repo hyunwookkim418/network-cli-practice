@@ -2,7 +2,7 @@
 
 Date: 2026-04-08
 
-30-Second Summary: Configured LAN and WAN interfaces, then applied a default static route to enable external network communication. This setup is commonly used in small networks where dynamic routing is unnecessary.
+30-Second Summary: Configured LAN and WAN interfaces, then applied a default static route to enable external network communication. `ip route 0.0.0.0 0.0.0.0 203.0.113.1` creates a default route that matches all unknown destinations. It tells the router to forward any traffic it doesn’t recognize to the next-hop IP (usually the ISP gateway). This setup is commonly used in small networks where dynamic routing is unnecessary.
 
 ## Environment
 - Cisco Packet Tracer
