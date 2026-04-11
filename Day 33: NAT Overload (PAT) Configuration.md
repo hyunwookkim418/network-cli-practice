@@ -2,7 +2,7 @@
 
 Date: 2026-04-10
 
-30-Second Summary: NAT overload (PAT) allows multiple internal devices to share a single public IP address by using different port numbers. Inside interfaces are marked with ip nat inside and the outside interface with ip nat outside. The command ip nat inside source list 1 interface g0/1 overload translates all permitted internal IPs to the public IP of g0/1.
+30-Second Summary: NAT overload (PAT) allows multiple internal devices to share a single public IP address by using different port numbers. Inside interfaces are marked with `ip nat inside` and the outside interface with `ip nat outside`. The command `ip nat inside source list 1 interface g0/1 overload` translates all permitted internal IPs to the public IP of g0/1.
 
 ## Environment
 - Cisco Packet Tracer
