@@ -2,6 +2,9 @@
 
 Date: April 16, 2026
 
+30-second summary: NAT allows private IPs to access external networks by translating them to public IPs. Interfaces are defined as `inside` and `outside` to control traffic flow. In practice, I configured these first before applying NAT overload for internet access.
+
+
 ## Environment
 - Cisco Packet Tracer
 - Router (ISR)
